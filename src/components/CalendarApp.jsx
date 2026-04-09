@@ -9,7 +9,6 @@ const CalendarApp = () => {
   const [notes, setNotes] = useState({});
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  const getRangeKey = (start, end) => `${start}-${end}`;
 
   return (
   <div className="app-container">
